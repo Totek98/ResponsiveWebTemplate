@@ -1,0 +1,21 @@
+main
+{
+  min-height: 300vh;
+  padding-top: 56px;
+  background-color: #F8CA4D;
+}
+.container
+{
+  max-width: 1200px;
+  margin: 0 auto;
+}
+section:nth-child(odd)
+{
+  background-color: #F24738;
+  min-height: 100vh;
+}
+section:nth-child(even)
+{
+  background-color: #03A694;
+  min-height: 100vh;
+}

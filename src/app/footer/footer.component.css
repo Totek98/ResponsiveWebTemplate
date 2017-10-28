@@ -1,0 +1,11 @@
+footer
+{
+  padding-top: 20px;
+  min-height: 20vh;
+  background-color: #2F3440;
+}
+.footer_main_container
+{
+  max-width: 1200px;
+  margin: 0 auto;
+}

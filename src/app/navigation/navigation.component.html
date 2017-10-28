@@ -1,0 +1,17 @@
+<nav>
+  <div class="main_navi_container_desk">
+    <ul>
+      <li [scrollTo]="'#home'" [scrollDuration]="1000">Home</li>
+      <li [scrollTo]="'#example1'" [scrollDuration]="1000" [scrollOffset]="-100">Example1</li>
+      <li [scrollTo]="'#example2'" [scrollDuration]="1000" [scrollOffset]="-100">Example2</li>
+      <li [scrollTo]="'#example3'" [scrollDuration]="1000" [scrollOffset]="-100">Example3</li>
+    </ul>
+  </div>
+  <div class="main_navi_container_mobil">
+    <button class="hamburger hamburger--collapse" [class.is-active]="active" type="button" (click)="openhamburger()">
+      <span class="hamburger-box">
+        <span class="hamburger-inner"></span>
+      </span>
+    </button>
+  </div>
+</nav>

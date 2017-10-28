@@ -1,0 +1,26 @@
+header
+{
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #2F3440;
+}
+.main_header_container
+{
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 2fr 4fr;
+  grid-template-areas: "logo navigation";
+}
+.logo
+{
+  grid-area: logo;
+  display: flex;
+  align-items: center;
+  font-size: 30px;
+}
+@media only screen and (max-width: 790px) {
+  .main_header_container { grid-template-columns: 5fr 1fr; grid-template-areas: "logo mobile" }
+}

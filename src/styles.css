@@ -1,0 +1,9 @@
+@import '~normalize.css/normalize.css';
+@import 'https://fonts.googleapis.com/css?family=Catamaran&amp;subset=latin-ext';
+@import '~hamburgers/dist/hamburgers.css';
+body
+{
+  font-family: 'Catamaran', sans-serif;
+  font-size: 18px;
+  color: white;
+}
